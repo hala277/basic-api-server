@@ -23,3 +23,5 @@ Remember to start your Postgres server:
 Windows and Linux Users: pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start
 Mac Users: brew services start postgres
 ```
+ [pull req link](https://github.com/hala277/basic-api-server/pull/1/checks)
+ 
