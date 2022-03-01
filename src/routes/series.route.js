@@ -21,7 +21,7 @@ response.status(200).json(series);
 async function creatSeries(request,response){
     let newSeries = request.body;
     let series = await Series.create(newSeries);
-    response.status(201).json(series);
+    response.status(200).json(series);
 }
 // localhost:3000/series/2
 async function getOneSeries(request,response){
