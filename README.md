@@ -29,6 +29,6 @@ to be able to test i should install  `npm i sqlite3`
 
  [pull req link](https://github.com/hala277/basic-api-server/pull/1/checks)
 
-<!-- [actions]() -->
+[actions](https://github.com/hala277/basic-api-server/actions/workflows/node.js.yml)
 
  [heruko](https://hala-basic-api-server.herokuapp.com/)
