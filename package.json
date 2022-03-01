@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "test": "jest --coverage --verbose",
-    "start": "node index.js"
+    "test": "NODE_ENV=test jest",
+    "start": "NODE_ENV=production node index.js"
   },
   "name": "basic-api-server",
   "description": "",

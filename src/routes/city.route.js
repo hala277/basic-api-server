@@ -21,7 +21,7 @@ response.status(200).json(city);
 async function creatCity(request,response){
     let newCity = request.body;
     let city = await City.create(newCity);
-    response.status(201).json(city);
+    response.status(200).json(city);
 }
 // localhost:3000/city/2
 async function getOneCity(request,response){
